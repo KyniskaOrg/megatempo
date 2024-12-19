@@ -18,6 +18,27 @@
     z-index: 99;
 }
 
+.tresponsive-text {
+    
+}
+
+/* Change text size for screens smaller than 720px */
+@media (max-width: 720px) {
+    .tresponsive-text {
+        font-size: 18px;
+    }
+}
+
+.tresponsive-text-2 {
+   
+}
+
+/* Change text size for screens smaller than 720px */
+@media (max-width: 720px) {
+    .tresponsive-text-2 {
+        font-size: 10px;
+    }
+}
 
 /*** Spinner ***/
 #spinner {
