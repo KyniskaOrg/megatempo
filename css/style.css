@@ -90,6 +90,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
+    border-radius: 8px;
     color: #FFFFFF;
 }
 
