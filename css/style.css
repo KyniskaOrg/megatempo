@@ -10,12 +10,33 @@
     font-weight: 600 !important;
 }
 
+@font-face {
+    font-family: 'Moonrising';
+    src: url('Moonrising.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Moonrising', sans-serif;
+    font-weight: normal;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Moonrising', serif;
+    font-weight: normal;
+}
+p, small{
+    font-family: sans-serif;
+}
 .back-to-top {
     position: fixed;
     display: none;
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+
+.logo-mega{
+width: 250px
 }
 
 .container-fluidx {
@@ -26,6 +47,9 @@
     .container-fluidx {
       height: 100vh; /* Sets the height to 100% of the viewport */
     }
+    .logo-mega{
+        width: 170px
+        }
   }
 
   .img-fluidx {
@@ -158,7 +182,7 @@
 
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
-    height: 75px;
+    height: 105px;
 }
 
 .navbar-light .navbar-nav .nav-link {
