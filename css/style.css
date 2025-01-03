@@ -9,6 +9,25 @@
 .fw-medium {
   font-weight: 600 !important;
 }
+.fade-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-fde {
+  display: block;
+  width: 100%;
+}
+
+.fade-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Adjust the height for the fade effect */
+  background: linear-gradient(to bottom, #a74de8, rgba(255, 255, 255, 0));
+  pointer-events: none; /* Allow interaction with the image */
+}
 
 @font-face {
   font-family: "Moonrising";
