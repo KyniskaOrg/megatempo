@@ -355,7 +355,7 @@ small {
 /*** Booking ***/
 .booking {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/carousel-bg-2.jpg) center center no-repeat;
+    url(../img/main.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -449,7 +449,7 @@ small {
 /*** Footer ***/
 .footer {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/carousel-bg-1.jpg) center center no-repeat;
+    url(../img/main.jpg) center center no-repeat;
   background-size: cover;
 }
 
