@@ -38,7 +38,10 @@ body {
   font-family: "Moonrising", sans-serif;
   font-weight: normal;
 }
-
+.flex-fot {
+  display: flex;
+  justify-content: space-around;
+}
 h1,
 h2,
 h3,
@@ -226,6 +229,11 @@ small {
 }
 
 @media (max-width: 991.98px) {
+  .flex-fot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .navbar-light .navbar-nav .nav-link {
     margin-right: 0;
     padding: 10px 0;
@@ -437,12 +445,12 @@ small {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #a74de8 ;
+  background: #a74de8;
   transition: 0.5s;
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: black ;
+  background: black;
   border-color: black;
 }
 
