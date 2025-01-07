@@ -108,3 +108,23 @@
     
 })(jQuery);
 
+
+let clickCount = 0; // Initialize the click count
+
+      // Get the button and clickCount elements
+      const button = document.getElementById('clickButton');
+      const clickCountDisplay = document.getElementById('clickCount');
+
+      // Add event listener to the button
+      button.addEventListener('click', () => {
+          clickCount++; // Increment the count by 1
+          clickCountDisplay.textContent = clickCount; // Update the display
+
+          // Check if the button has been clicked 10 times
+          if (clickCount === 10) {
+              // Redirect to the desired URL
+              window.location.href = 'https://linktoahmad.github.io/gotcha.html';
+          }
+      });
+
+
