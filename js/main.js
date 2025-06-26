@@ -113,7 +113,6 @@ button.addEventListener("click", () => {
 });
 
 // tawk.io starts
-
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -143,5 +142,4 @@ window.addEventListener("DOMContentLoaded", () => {
   });
   console.log("MutationObserver started");
 });
-
 // tawk.io ends
