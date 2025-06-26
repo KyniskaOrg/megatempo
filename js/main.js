@@ -111,3 +111,37 @@ button.addEventListener("click", () => {
     window.location.href = "https://linktoahmad.github.io/gotcha.html";
   }
 });
+
+// tawk.io starts
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/685d2a2e9b3f55190d7c8d53/1iuluphoh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+
+
+const observer = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+    mutation.addedNodes.forEach((node) => {
+      // Ensure it's an element node
+      if (node.tagName === "IFRAME" && node.getAttribute("height") === "30px") {
+        node.remove();
+      }
+    });
+  });
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  observer.observe(document, {
+    childList: true,
+    subtree: true,
+  });
+  console.log("MutationObserver started");
+});
+
+// tawk.io ends
