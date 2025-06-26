@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  // Spinners
+  // Spinner
   var spinner = function () {
     setTimeout(function () {
       if ($("#spinner").length > 0) {
